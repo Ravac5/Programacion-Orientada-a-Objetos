@@ -17,13 +17,17 @@ public class personaje{
     }
 
     public void atacar(personaje objetivo){
-        if (objetivo.puntosVida >= this.puntosAtaque){
-            this.randomAtaque = (int)(Math.random() * this.puntosAtaque);
-            objetivo.puntosVida = objetivo.puntosVida - this.randomAtaque;
+        if (estaVivo()){
+            if (objetivo.puntosVida >= this.puntosAtaque){
+                this.randomAtaque = (int)(Math.random() * this.puntosAtaque);
+                objetivo.puntosVida = objetivo.puntosVida - this.randomAtaque;
+            } else {
+                objetivo.puntosVida = 0;
+            }
+            System.out.println(this.nombre + " ha atacado a " + objetivo.nombre + ", Daño realizado: " + this.randomAtaque);
         } else {
-            objetivo.puntosVida = 0;
+            System.out.println(this.nombre + " no puede atacar ya que no tiene puntos de vida");
         }
-        System.out.println(this.nombre + " ha atacado a: " + objetivo.nombre + ", Daño realizado: " + this.randomAtaque);
     }
 
     public boolean estaVivo(){

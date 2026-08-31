@@ -1,17 +1,19 @@
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
 public class ejercicio10main {
     public static void main(String[] args){
+        int x;
+        personaje kazuma = new personaje("Kazuma", 50);
+        personaje megumin = new personaje("Megumin", 50);
 
-        personaje kazuma = new personaje("Kazuma", 70);
-        personaje megumin = new personaje("Megumin", 70);
-
-        while (megumin.estaVivo() == true && kazuma.estaVivo() == true) {
+        while (megumin.estaVivo() && kazuma.estaVivo()) {
             kazuma.atacar(megumin);
             System.out.println(megumin.getNombre() + " tiene: " + megumin.getVida() + " puntos de vida");
             megumin.atacar(kazuma);
             System.out.println(kazuma.getNombre() + " tiene: " + kazuma.getVida() + " puntos de vida");
         }
-
-        if (kazuma.estaVivo() == true){
+        if (kazuma.estaVivo()){
             System.out.println(kazuma.getNombre() + " ha ganado!");
         } else {
             System.out.println(megumin.getNombre() + " ha ganado!");
