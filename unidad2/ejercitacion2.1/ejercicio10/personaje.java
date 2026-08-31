@@ -23,7 +23,7 @@ public class personaje{
         } else {
             objetivo.puntosVida = 0;
         }
-        System.out.println(this.nombre + " ha atacado a: " + objetivo.nombre + " Ataque: " + this.randomAtaque);
+        System.out.println(this.nombre + " ha atacado a: " + objetivo.nombre + ", Daño realizado: " + this.randomAtaque);
     }
 
     public boolean estaVivo(){
