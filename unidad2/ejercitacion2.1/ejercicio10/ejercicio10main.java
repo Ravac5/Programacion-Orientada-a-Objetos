@@ -1,9 +1,5 @@
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-
 public class ejercicio10main {
     public static void main(String[] args){
-        int x;
         personaje kazuma = new personaje("Kazuma", 50);
         personaje megumin = new personaje("Megumin", 50);
 
