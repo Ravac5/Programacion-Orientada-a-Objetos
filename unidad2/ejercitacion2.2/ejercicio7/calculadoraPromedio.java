@@ -28,7 +28,7 @@ public class calculadoraPromedio{
 
     public void calcularPrecioFinal(double precioBase, int cuponFijo){
         if (cuponFijo <= precioBase && cuponFijo > 0){
-            System.out.println("Precio con cupon fijo: " + (precioBase - cuponFijo));
+            System.out.println("Precio con cupon fijo de " + cuponFijo + ": " + (precioBase - cuponFijo));
         } else {
             System.out.println("Cupon no valido.");
         }
