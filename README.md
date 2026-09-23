@@ -1,10 +1,10 @@
-<p align="center"># <strong>Programacion Orientada a Objetos en java</strong></p> 
+<p align="center"><h1><strong>Programacion Orientada a Objetos en java</strong></h1></p> 
 
 ## **Indice**
 
 Este es el indice de cada ejercicio presentado por nombre.
 
-# **Ejercitacion 2.1**
+### **Ejercitacion 2.1**
 
 1. [Persona](unidad2/ejercitacion2.1/ejercicio1)
 2. [Mascota](unidad2/ejercitacion2.1/ejercicio2)
@@ -17,7 +17,7 @@ Este es el indice de cada ejercicio presentado por nombre.
 9. [Producto](unidad2/ejercitacion2.1/ejercicio9)
 10. [Personaje](unidad2/ejercitacion2.1/ejercicio10)
 
-# **Ejercitacion 2.2**
+### **Ejercitacion 2.2**
 
 1. [Articulo Geek](unidad2/ejercitacion2.2/ejercicio1)
 2. [VideoJuego](unidad2/ejercitacion2.2/ejercicio2)
