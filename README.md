@@ -1,4 +1,4 @@
-<p align="center"># **Programacion Orientada a Objetos en java**</p> 
+<p align="center"># <strong>Programacion Orientada a Objetos en java</strong></p> 
 
 ## **Indice**
 
