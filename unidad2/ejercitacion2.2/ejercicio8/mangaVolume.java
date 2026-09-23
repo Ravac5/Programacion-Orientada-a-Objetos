@@ -1,11 +1,17 @@
 public class mangaVolume{
     private int numeroTomo, cantidadPaginas;
     private String tituloSerie;
-    private boolean edicionEspecial;
 
-    public mangaVolume(String tituloSerie, int numeroTomo, int cantidadPaginas, boolean edicionEspecial){
+    private boolean esTomoExtenso(){
+        if (cantidadPaginas > 300){
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public mangaVolume(String tituloSerie, int numeroTomo, int cantidadPaginas){
         this.tituloSerie = tituloSerie;
-        this.edicionEspecial = edicionEspecial;
         if (numeroTomo > 0){
             this.numeroTomo = numeroTomo;
         } else {
@@ -19,6 +25,20 @@ public class mangaVolume{
     }
 
     public boolean esEdicionEspecial() {
-        return edicionEspecial;
+        if (esTomoExtenso()){
+            return true;
+        } else{
+            return false;
+        }
+    }
+
+    @Override
+
+    public String toString(){
+        if (esEdicionEspecial()){
+            return "titulo: " + tituloSerie + ", numero de tomo: " + numeroTomo + ", cantidad de paginas: " + cantidadPaginas + ", es edicion especial" ;
+        } else {
+            return "titulo: " + tituloSerie + ", numero de tomo: " + numeroTomo + ", cantidad de paginas: " + cantidadPaginas + ", no es edicion especial" ;
+        }
     }
 }
