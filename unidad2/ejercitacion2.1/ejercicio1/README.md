@@ -8,4 +8,4 @@ En el metodo main se llama a dos getters y se imprime en pantalla el nombre y ed
 
 ## Imagen
 
-![imagen de consola](../../../imagenes/imagenejercicio1)
+![imagen de consola](../../../imagenes/imagenejercicio1.png)
