@@ -24,7 +24,7 @@ Este es el indice de cada ejercicio presentado por nombre.
 3. [Consola Retro](unidad2/ejercitacion2.2/ejercicio3)
 4. [Caja Registradora](unidad2/ejercitacion2.2/ejercicio4)
 5. [Socio Geek](unidad2/ejercitacion2.2/ejercicio5)
-6. [Socio Geek](unidad2/ejercitacion2.2/ejercicio6)
+6. [Comic](unidad2/ejercitacion2.2/ejercicio6)
 7. [Calculadora de Promocion](unidad2/ejercitacion2.2/ejercicio7)
 8. [Manga](unidad2/ejercitacion2.2/ejercicio8)
 9. [GiftCard y Cliente](unidad2/ejercitacion2.2/ejercicio9)
