@@ -1,4 +1,4 @@
-# ** Ejercicio 6 **
+# **Ejercicio 6**
 
 ## Explicacion
 
